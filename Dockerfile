@@ -1,5 +1,5 @@
 # Usar uma imagem leve do JDK 17
-FROM eclipse-temurin:17-jre
+FROM openjdk:17
 
 # Definir o diretório de trabalho dentro do container
 WORKDIR /ac2
