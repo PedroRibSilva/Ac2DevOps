@@ -1,5 +1,3 @@
-version: '4'
-
 services:
   database:
     image: postgres
@@ -16,6 +14,6 @@ services:
     environment:
       DB_HOST: database
     ports:
-      - "8585:8080"
+      - "8585:8082"
 volumes:
   db-volume:
